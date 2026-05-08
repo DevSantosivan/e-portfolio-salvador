@@ -20,6 +20,10 @@ import {
 import { Button } from "@/components/ui/button";
 import campusBg from "@/assets/omsc-campus.jpg";
 import PrayerImg from "@/assets/Prayer.png";
+import Profile from "@/assets/PROFILE-Carlos.jpg";
+import CASTLogo from "@/assets/CAST-LOGO.png";
+import OmscLogo from "@/assets/omsc-logo.png";
+import LSLogo from "@/assets/LS-LOGO.jpg";
 
 /**
  * Reusable type for profile items
@@ -125,11 +129,10 @@ const Index = () => {
 
         {/* 🌟 FLOATING CIRCLES (IMPROVED SPACING + HIGHER POSITION) */}
         <div className="absolute top-1 left-1/2 -translate-x-1/2 flex items-end gap-10 z-20 pointer-events-none">
-          
           {/* Left small circle */}
           <div className="h-24 w-24 sm:h-18 sm:w-18 rounded-full bg-white/80 shadow-lg border overflow-hidden flex items-center justify-center">
             <img
-              src="/src/assets/CAST-LOGO.png"
+              src={CASTLogo}
               alt="Logo 1"
               className="h-full w-full object-cover"
             />
@@ -138,7 +141,7 @@ const Index = () => {
           {/* Middle big circle */}
           <div className="h-20 w-20 sm:h-28 sm:w-28 rounded-full bg-white/90 shadow-2xl border-1 border-primary overflow-hidden flex items-center justify-center -translate-y-1">
             <img
-              src="/src/assets/omsc-logo.png"
+              src={OmscLogo}
               alt="Logo 2"
               className="h-full w-full object-cover"
             />
@@ -147,7 +150,7 @@ const Index = () => {
           {/* Right small circle */}
           <div className="h-18 w-18 sm:h-20 sm:w-20 rounded-full bg-white/80 shadow-lg border overflow-hidden flex items-center justify-center">
             <img
-              src="/src/assets/LS-LOGO.jpg"
+              src={LSLogo}
               alt="Logo 3"
               className="h-full w-full object-cover"
             />
@@ -170,21 +173,19 @@ const Index = () => {
             </h1>
 
             <p className="mt-3 text-base font-medium text-foreground sm:text-lg">
-              Occidental Mindoro State College — {" Bachelor of Science in Information Technology"}
-              <span className="text-muted-foreground">
-                
-              </span>
+              Occidental Mindoro State College —{" "}
+              {" Bachelor of Science in Information Technology"}
+              <span className="text-muted-foreground"></span>
             </p>
 
             <p className="mt-4 max-w-xl text-lg text-muted-foreground">
               OJT Trainee at {""}
               <span className="font-medium text-foreground">
-              L&S Cable Television Inc.
+                L&S Cable Television Inc.
               </span>{" "}
-              — exploring IT support, documentation and the craft of solving real problems.
+              — exploring IT support, documentation and the craft of solving
+              real problems.
             </p>
-
-            
           </div>
 
           {/* PROFILE IMAGE */}
@@ -192,7 +193,7 @@ const Index = () => {
             <div className="absolute -inset-3 rounded-2xl bg-primary/30 blur-2xl" />
             <div className="relative h-44 w-44 overflow-hidden rounded-2xl border-4 border-background shadow-xl sm:h-56 sm:w-56 lg:h-64 lg:w-64">
               <img
-                src="/src/assets/PROFILE-Carlos.jpg"
+                src={Profile}
                 alt="Carlos Manuel D. Salvador portrait"
                 className="h-full w-full object-cover"
               />
@@ -353,83 +354,83 @@ const Index = () => {
       </section>
       {/* 2. ACKNOWLEDGEMENT */}
       <section>
-  <h2 className="mb-5 text-sm font-semibold uppercase tracking-widest text-primary">
-    Acknowledgement
-  </h2>
+        <h2 className="mb-5 text-sm font-semibold uppercase tracking-widest text-primary">
+          Acknowledgement
+        </h2>
 
-  <div className="portfolio-card leading-relaxed text-muted-foreground space-y-4">
-    <p>
-      I would like to express my sincere gratitude to everyone who made my
-      On-the-Job Training experience meaningful and impactful.
-    </p>
+        <div className="portfolio-card leading-relaxed text-muted-foreground space-y-4">
+          <p>
+            I would like to express my sincere gratitude to everyone who made my
+            On-the-Job Training experience meaningful and impactful.
+          </p>
 
-    <p>
-      First and foremost, I thank Almighty God for granting me wisdom,
-      knowledge, and strength each day, for all the graces and blessings, and
-      for His continuous guidance and good health that enabled me to perform my
-      tasks and successfully complete my On-the-Job Training.
-    </p>
+          <p>
+            First and foremost, I thank Almighty God for granting me wisdom,
+            knowledge, and strength each day, for all the graces and blessings,
+            and for His continuous guidance and good health that enabled me to
+            perform my tasks and successfully complete my On-the-Job Training.
+          </p>
 
-    <p>
-      I am profoundly grateful to the Occidental Mindoro State College for
-      their continued support in facilitating internship opportunities for
-      students like me. Your commitment to academic and professional growth is
-      truly appreciated.
-    </p>
+          <p>
+            I am profoundly grateful to the Occidental Mindoro State College for
+            their continued support in facilitating internship opportunities for
+            students like me. Your commitment to academic and professional
+            growth is truly appreciated.
+          </p>
 
-    <p>
-      I would also like to extend my heartfelt appreciation to my OJT
-      instructor,{" "}
-      <span className="text-primary font-semibold">
-        Ms. Marites D. Escultor
-      </span>
-      , for her perseverance in assisting, teaching, and monitoring us before,
-      during, and after our OJT hours. Your advice and guidance will greatly
-      help me in achieving my goals as I continue on my life’s path.
-    </p>
+          <p>
+            I would also like to extend my heartfelt appreciation to my OJT
+            instructor,{" "}
+            <span className="text-primary font-semibold">
+              Ms. Marites D. Escultor
+            </span>
+            , for her perseverance in assisting, teaching, and monitoring us
+            before, during, and after our OJT hours. Your advice and guidance
+            will greatly help me in achieving my goals as I continue on my
+            life’s path.
+          </p>
 
-    <p>
-      My sincere thanks go to{" "}
-      <span className="text-primary font-semibold">
-        Mr. Dan Patrick Sebastian
-      </span>
-      , Head Manager of L&S Cable Television Incorporated, along with all the
-      L&S staff, for their guidance, support, and for sharing their valuable
-      knowledge and skills. Your mentorship and the life lessons you imparted
-      will undoubtedly be valuable in my future career.
-    </p>
+          <p>
+            My sincere thanks go to{" "}
+            <span className="text-primary font-semibold">
+              Mr. Dan Patrick Sebastian
+            </span>
+            , Head Manager of L&S Cable Television Incorporated, along with all
+            the L&S staff, for their guidance, support, and for sharing their
+            valuable knowledge and skills. Your mentorship and the life lessons
+            you imparted will undoubtedly be valuable in my future career.
+          </p>
 
-    <p>
-      To my family, friends, and classmates, thank you for your encouragement
-      from the beginning of this journey, for keeping me motivated, and for your
-      unconditional love, as well as your financial, emotional, and spiritual
-      support.
-    </p>
+          <p>
+            To my family, friends, and classmates, thank you for your
+            encouragement from the beginning of this journey, for keeping me
+            motivated, and for your unconditional love, as well as your
+            financial, emotional, and spiritual support.
+          </p>
 
-    <p>
-      To all who contributed to the success of my On-the-Job Training, your
-      support will always be remembered and deeply appreciated.
-    </p>
-  </div>
-</section>
+          <p>
+            To all who contributed to the success of my On-the-Job Training,
+            your support will always be remembered and deeply appreciated.
+          </p>
+        </div>
+      </section>
 
       {/* 3. STUDENT TRAINEE PRAYER */}
       {/* 3. STUDENT TRAINEE PRAYER */}
-      
 
-<section>
-  <h2 className="mb-5 text-center text-sm font-semibold uppercase tracking-widest text-primary">
-    Student Trainee Prayer
-  </h2>
+      <section>
+        <h2 className="mb-5 text-center text-sm font-semibold uppercase tracking-widest text-primary">
+          Student Trainee Prayer
+        </h2>
 
-  <div className="mx-auto max-w-2xl rounded-2xl border border-border bg-accent/40 p-8 flex justify-center">
-    <img
-      src={PrayerImg}
-      alt="Student Trainee Prayer"
-      className="max-w-full h-auto rounded-lg"
-    />
-  </div>
-</section>
+        <div className="mx-auto max-w-2xl rounded-2xl border border-border bg-accent/40 p-8 flex justify-center">
+          <img
+            src={PrayerImg}
+            alt="Student Trainee Prayer"
+            className="max-w-full h-auto rounded-lg"
+          />
+        </div>
+      </section>
 
       {/* 4. PERSONAL PHILOSOPHY */}
       <section>
@@ -473,56 +474,60 @@ const Index = () => {
       </section>
       {/* 5. CAREER PLAN */}
       <section>
-  <h2 className="mb-5 text-sm font-semibold uppercase tracking-widest text-primary">
-    Career Plan
-  </h2>
+        <h2 className="mb-5 text-sm font-semibold uppercase tracking-widest text-primary">
+          Career Plan
+        </h2>
 
-  <div className="portfolio-card leading-relaxed text-muted-foreground space-y-4">
-    <p>
-      To build a stable and growth-oriented career in the field of Information
-      Technology by applying my technical knowledge and skills in a
-      professional work environment, while continuously improving my
-      competencies and contributing to organizational success and my family’s
-      future.
-    </p>
+        <div className="portfolio-card leading-relaxed text-muted-foreground space-y-4">
+          <p>
+            To build a stable and growth-oriented career in the field of
+            Information Technology by applying my technical knowledge and skills
+            in a professional work environment, while continuously improving my
+            competencies and contributing to organizational success and my
+            family’s future.
+          </p>
 
-    <p>
-      After graduation, my primary objective is to prepare for and pass the
-      Civil Service Examination in order to qualify for government employment.
-      At the same time, I will actively seek job opportunities that will allow
-      me to gain practical experience and further develop my professional
-      skills. I plan to apply for office-based positions where I can maximize
-      my IT knowledge, such as administrative support, technical assistance,
-      data management, encoding, and other computer-related tasks that will
-      enhance both my technical and organizational abilities.
-    </p>
+          <p>
+            After graduation, my primary objective is to prepare for and pass
+            the Civil Service Examination in order to qualify for government
+            employment. At the same time, I will actively seek job opportunities
+            that will allow me to gain practical experience and further develop
+            my professional skills. I plan to apply for office-based positions
+            where I can maximize my IT knowledge, such as administrative
+            support, technical assistance, data management, encoding, and other
+            computer-related tasks that will enhance both my technical and
+            organizational abilities.
+          </p>
 
-    <p>
-      I am also willing to participate in short vocational trainings, seminars,
-      and certification programs to continuously improve my competencies and to
-      better identify the career path that best suits my skills and interests. I
-      aspire to work in a professional, organized, and positive work environment
-      where I can grow, develop my abilities, and contribute meaningfully to the
-      success of the organization.
-    </p>
+          <p>
+            I am also willing to participate in short vocational trainings,
+            seminars, and certification programs to continuously improve my
+            competencies and to better identify the career path that best suits
+            my skills and interests. I aspire to work in a professional,
+            organized, and positive work environment where I can grow, develop
+            my abilities, and contribute meaningfully to the success of the
+            organization.
+          </p>
 
-    <p>
-      In the long term, I aim to pursue better career opportunities in urban
-      areas where there are greater chances for advancement, learning, and
-      professional growth. If given the opportunity, I am also open to working
-      abroad to gain international experience, enhance my skills further, and
-      provide greater financial support for my family.
-    </p>
+          <p>
+            In the long term, I aim to pursue better career opportunities in
+            urban areas where there are greater chances for advancement,
+            learning, and professional growth. If given the opportunity, I am
+            also open to working abroad to gain international experience,
+            enhance my skills further, and provide greater financial support for
+            my family.
+          </p>
 
-    <p>
-      Ultimately, I aspire to become a successful and competent IT professional
-      in an office or corporate setting, where I can fully apply my knowledge
-      and skills. Through continuous learning and dedication, I aim to achieve
-      long-term career stability, personal growth, and the ability to support my
-      family and improve our quality of life.
-    </p>
-  </div>
-</section>
+          <p>
+            Ultimately, I aspire to become a successful and competent IT
+            professional in an office or corporate setting, where I can fully
+            apply my knowledge and skills. Through continuous learning and
+            dedication, I aim to achieve long-term career stability, personal
+            growth, and the ability to support my family and improve our quality
+            of life.
+          </p>
+        </div>
+      </section>
     </div>
   );
 };
